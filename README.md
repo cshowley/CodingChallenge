@@ -10,4 +10,4 @@ medianWords.py
 
 Second script counts the number of unique words in each tweet and calculates the median number of words in all tweets, output to ./tweet_output/ft2.txt
 
-Python libraries used: 'os'
+Python libraries used: 'os' and 'sortedcontainers'
