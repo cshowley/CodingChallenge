@@ -1,3 +1,5 @@
+# Challenge 2: Calculate the median number of unique words per tweet, and update this median as tweets come in.
+
 from os.path import join
 from sortedcontainers import SortedList
 
@@ -20,18 +22,16 @@ with open(join('./tweet_input/', filename),'rU') as data:
         tweets[i] = line.strip('\n')
         i += 1
 
-# Create output file ft2.txt
 filename = 'ft2.txt'
 uniqueCount = {}
 uCount = uniqueCount.has_key
+# The output file ft2.txt is created, but the median still has to be calculated by iterating through all the tweets
 with open(join('./tweet_output/', filename), 'w') as data:
     
-    uWords = SortedList([])            # Number of unique words per tweet, will increase until its length is equal to the length of 'tweets' list
+    uWords = SortedList([]) # Number of unique words per tweet, will increase until its length is equal to the length of 'tweets' list
     uWords_add = uWords.add
     for tweet in tweets:
-    
         tweet = tweet.split()
-        
         uniqueCount = {}    # Create a new dictionary for each tweet and overwrite the dictionary from the previous iteration of the loop. Each dictionary key is a unique word from the current tweet with a null value
         for word in tweet:
             if uCount(word):
@@ -39,10 +39,8 @@ with open(join('./tweet_output/', filename), 'w') as data:
             else:
                 uniqueCount[word] = 1
         foo = float(len(uniqueCount))
-        
         uWords_add(foo)
         numWords = len(uWords)
         median = calculateMedian(uWords, numWords)
 
         data.write('%s\n' % median)
-
