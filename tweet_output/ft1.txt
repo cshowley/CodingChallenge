@@ -5,12 +5,10 @@
 !"	1
 !=	8
 "	3
-""	1
 "#bigdata	1
 "#ey	1
 "#mit	1
 "#virtualizing	1
-"'#j	1
 "-	1
 "20	1
 "4	2
@@ -102,7 +100,7 @@
 "what	2
 "why	9
 "your	5
-#	115
+#	116
 ##911warning	13
 ##bigdata	3
 ##python	1
@@ -1268,6 +1266,7 @@
 #itsm	4
 #itsnevertoolate	2
 #iworkfordell	1
+#j	1
 #j_wave	3
 #jamesmaslow	1
 #japan	1
@@ -2312,12 +2311,10 @@ $jseimp	1
 &lt;time	1
 &power	1
 &quot;error	2
-'"wave	1
 '#bigdata	2
 '#bigdata'	8
 '#machinelearning:	1
 '#uber:	1
-''#	1
 '.net	1
 '@arsenal	1
 'a	1
@@ -11014,7 +11011,7 @@ http://t.co/fosbf3fjog	1
 http://t.co/fpjfldmrss	1
 http://t.co/fpl8k1us6x	1
 http://t.co/fppkyxcmn0	1
-http://t.co/fprsrlaqdq”	1
+http://t.co/fprsrlaqdq"	1
 http://t.co/fpwabhec4s	1
 http://t.co/fpxd50ld4x	1
 http://t.co/fqdg6jayro	1
@@ -19503,6 +19500,7 @@ water	4
 watson	11
 watson:	1
 waukesha	1
+wave	1
 way	38
 waycott,	11
 ways	70
