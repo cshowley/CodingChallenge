@@ -1,4 +1,4 @@
-# InsightCodingChallenge
+# Insight Coding Challenge
 
 numWords.py
 
